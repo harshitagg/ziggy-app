@@ -2,7 +2,7 @@ function ziggyViewController($scope) {
     $scope.formBridge = new FormBridge();
     $scope.navigationBridge = new NavigationBridge();
 
-    $scope.openForm = function (formName, entityId, metadata) {
+    $scope.openForm = function (formName, entityId, metaData) {
         if (!metaData) {
             metaData = {};
         }
